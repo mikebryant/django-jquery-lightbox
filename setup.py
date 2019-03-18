@@ -22,6 +22,6 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['jquery_lightbox'],
-    package_data={'jquery_lightbox': ['static/js/*.js', 'static/css/*.css', 'static/img/*']},
+    package_data={'jquery_lightbox': ['static/jquery_lightbox/js/*.js', 'static/jquery_lightbox/css/*.css', 'static/jquery_lightbox/img/*']},
     install_requires=['django-jquery >= 1.9',],
 )
